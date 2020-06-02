@@ -1,0 +1,9 @@
+.dark-mode {
+    $primary: #4894fe;
+    $body-bg: #333;
+    $body-color: #fff;
+    $card-bg: rgb(148, 147, 147);
+    $card-color: #fff;
+    
+    @import "node_modules/bootstrap/scss/bootstrap";
+}

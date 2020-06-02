@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {"bundleName": "theme-dark-mode", "input": "src/themes/dark.scss", "inject": false},
+              {"bundleName": "theme-light-mode", "input": "src/themes/light.scss", "inject": false}
             ],
             "scripts": []
           },

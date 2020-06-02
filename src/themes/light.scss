@@ -1,0 +1,16 @@
+.light-mode {
+    $primary: #969519;
+    $card-cap-color: #969519;
+    $body-bg: #a0b9d2;
+    $card-bg: #d1e3f5;
+
+    a {
+    text-decoration: underline !important;
+    }
+
+    figcaption {
+        color: #969519;
+    }
+    
+    @import "node_modules/bootstrap/scss/bootstrap";
+}
